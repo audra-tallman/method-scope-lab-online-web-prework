@@ -1,11 +1,12 @@
-def rescue_princess_peach
-  status = "rescued"
+status = "rescued"
+
+def rescue_princess_peach(status)
   puts "Hooray! Mario has rescued Princess Peach."
 end
 
 
 
-def rescue_princess_peach
-  puts status
+def rescue_princess_peach(status)
+  puts "#{status}"
 end
 
